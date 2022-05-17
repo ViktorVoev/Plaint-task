@@ -1,3 +1,37 @@
+let currentdot = document.getElementsByClassName('dots');
+let currentSlide = document.getElementsByClassName('carousel_text');
+
+document.getElementById('dot1').addEventListener('click', () => {
+    currentSlide[0].style.display = 'inline-block';
+    currentSlide[1].style.display = 'none';
+    currentSlide[2].style.display = 'none';
+    currentdot[0].className = 'dots first_active';
+    currentdot[1].className = 'dots';
+    currentdot[2].className = 'dots';
+    slideIndex = 0;
+})
+document.getElementById('dot2').addEventListener('click', () => {
+    currentSlide[0].style.display = 'none';
+    currentSlide[1].style.display = 'inline-block';
+    currentSlide[2].style.display = 'none';
+    currentdot[0].className = 'dots';
+    currentdot[1].className = 'dots first_active';
+    currentdot[2].className = 'dots';
+    slideIndex = 1;
+})
+document.getElementById('dot3').addEventListener('click', () => {
+    currentSlide[0].style.display = 'none';
+    currentSlide[1].style.display = 'none';
+    currentSlide[2].style.display = 'inline-block';
+    currentdot[0].className = 'dots';
+    currentdot[1].className = 'dots';
+    currentdot[2].className = 'dots first_active';
+    slideIndex = 2;
+})
+
+
+
+
 let slideIndex = 0;
 function slideShow(){
     let i;
