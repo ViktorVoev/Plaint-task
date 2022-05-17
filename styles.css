@@ -1,0 +1,318 @@
+body{
+    background-color: black;
+}
+main{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#firstWrapper{
+    height: 30%;
+    width: 100%;
+}
+header{
+    padding-bottom: 1%;
+    border-bottom: solid 1px rgb(136, 135, 135);
+}
+#background{
+    width: 100%;
+    height: 100%;
+    opacity: 15%;
+    position: absolute;
+    z-index: -1;
+}
+.logo{
+    width: 10%;
+    height: 10%;
+    display: inline-block;
+    padding-top: 14px;
+}
+.menu{
+    float: right;
+    text-align: center;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 30px 25px;
+    font-size: large;
+}
+.menu a:hover{
+    border-bottom: solid 2px white;
+}
+.frontText{
+    color: white;
+    text-align: center;
+    margin-top: 15%;
+}
+.frontText h1{
+    font-size: 300%;
+    margin-bottom: 1%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.frontText p{
+    margin: 0;
+    font-size: 200%;
+    font-family: 'Courgette', cursive;
+}
+.upperBtn{
+    margin-top: 15%;
+}
+.upperBtn button{
+    background-color: rgb(55, 70, 61);
+    width: 50%;
+    height: 100px;
+    font-size: 30px;
+    color: white;
+    border: 0;
+    transform: skewX(-15deg)
+}
+.upperBtn button:hover{
+    background-color: rgb(61, 172, 98);
+}
+#secondWrapper{
+    width: 100%;
+    background-color: white;
+}
+.about{
+    padding-top: 10%;
+    padding-bottom: 5%;
+    display: inline-block;
+}
+.about h1{
+    display: inline-block;
+    margin-left: 3%;
+    margin-bottom: 0px;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: lighter;
+}
+.about h1:first-child{
+    margin-left: 0;
+    font-weight: bolder;
+}
+.about p{
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+    line-height: 1.5;
+}
+.vl{
+    display: inline-block;
+    border-right: 2px dotted grey;
+    height: 130px;
+    margin-left: 15%;
+}
+#profiles{
+    display: inline-block;
+    margin-left: 15%;
+    text-align: center;
+}
+.profile{
+    display: inline-block;
+    margin-right: 100px;
+    font-family: 'Signika Negative', sans-serif;
+}
+.profile img{
+    border-radius: 50%;
+    border: solid 5px rgb(206, 206, 206);
+}
+.profile h4{
+    margin-bottom: 4%;
+}
+.profile h5{
+    margin-top: 0px;
+    color: grey;
+    margin-bottom: 10%;
+}
+.icons{
+    color: grey;
+    margin-left: 10%;
+}
+.icons:hover{
+    color: rgb(0, 195, 255);
+    cursor: pointer;
+}
+.rotate{
+    transform: rotate(90deg);
+}
+#thirdWrapper{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+#thirdWrapper img{
+    width: 100%;
+    height: 200px;
+    opacity: 20%;
+    position: absolute;
+    z-index: -1;
+}
+.text_container{
+    text-align: center;
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+.carousel_text{
+    color: silver;
+    text-align: center;
+    margin-top: 0px;
+    line-height: 1.5;
+    top: 60px;
+    display: none;
+    transition: all 0.5s ease-in; 
+    
+}
+.active{
+    display: inline-block;
+}
+.carousel_text h3{
+    display: inline-block;
+    padding-right: 2%;
+    margin-top: 0px;
+    border-right: 1px solid white;
+}
+.dots_container{
+    text-align: center;
+    display: inline-block;
+    margin-left: 55%;
+    position: relative;
+    bottom: 40px;
+}
+.dots{
+    margin-left: 10px;
+    width: 8px;
+    height: 8px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    border: solid 2px white;
+}
+.dots.first_active{
+    background-color: white;
+}
+#fourth_wrapper{
+    width: 100%;
+    background-color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.servers{
+    display: inline-block;
+    text-align: center;
+    font-family: 'Signika Negative', sans-serif;
+    margin-left: 16%;
+}
+.servers:first-child{
+    margin-left: 0px;
+}
+.servers:first-child i:hover{
+    color: yellowgreen;
+    cursor: pointer;
+}
+.servers:nth-child(2) i:hover{
+    color: rgb(124, 124, 223);
+    cursor: pointer;
+}
+.servers:nth-child(3) i:hover{
+    color: red;
+    cursor: pointer;
+}
+.servers:nth-child(4) i:hover{
+    color: blueviolet;
+    cursor: pointer;
+}
+.servers i{
+    margin-bottom: 10%;
+    font-size: 50px;
+}
+.servers h4{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.servers p{
+    color: silver;
+    margin-top: 5px;
+}
+.fa-solid.fa-cloud-bolt{
+    color: orange;
+}
+.fa-solid.fa-cloud{
+    color: rgb(0, 255, 255);
+}
+.fa-solid.fa-right-left{
+    color: silver;
+}
+.fa-solid.fa-message{
+    color: red;
+}
+#fifth_wrapper{
+    background-color: rgb(34, 34, 34);
+}
+footer{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-family: 'Signika Negative', sans-serif;
+}
+.first_part_footer{
+    display: inline-block;
+    color: gray;
+    line-height: 1.5;
+    opacity: 50%;
+    border-right: solid 1px gray;
+    padding-right: 8%;
+}
+.second_part_footer {
+    display: inline-block;
+    color: gray;
+    opacity: 50%;
+}
+.second_part_footer:nth-child(3){
+    margin-left: 50px;
+    border-right: solid 1px gray;
+    padding-right: 8%;
+}
+.second_part_footer:nth-child(2){
+    padding-left: 8%;
+}
+.second_part_footer ul{
+    padding-left: 0px;
+}
+.second_part_footer li{
+    list-style-type: none;
+    line-height: 1.9;
+}
+.second_part_footer li:hover{
+    cursor: pointer;
+    color: white;
+    margin-left: 5px;  
+    opacity: 100%;
+}
+.second_part_footer li::before{
+    content: '> ';
+}
+.third_part_footer{
+    margin-left: 8%;
+    display: inline-block;
+    color: gray;
+    display: inline-block;
+    opacity: 50%;
+    line-height: 1.9;
+}
+.third_part_footer p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+@media (max-width: 1800px){
+    .servers{
+        margin-left: 11%;;
+    }
+}
+@media (max-width: 400px){
+    .servers:first-child{
+        margin-left: 11%;
+    }
+}
