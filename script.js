@@ -1,11 +1,11 @@
 let currentdot = document.getElementsByClassName('dots');
-let currentSlide = document.getElementsByClassName('carousel_text');
+let currentSlide = document.getElementsByClassName('carousel-text');
 
 document.getElementById('dot1').addEventListener('click', () => {
     currentSlide[0].style.display = 'inline-block';
     currentSlide[1].style.display = 'none';
     currentSlide[2].style.display = 'none';
-    currentdot[0].className = 'dots first_active';
+    currentdot[0].className = 'dots first-active';
     currentdot[1].className = 'dots';
     currentdot[2].className = 'dots';
     slideIndex = 0;
@@ -15,7 +15,7 @@ document.getElementById('dot2').addEventListener('click', () => {
     currentSlide[1].style.display = 'inline-block';
     currentSlide[2].style.display = 'none';
     currentdot[0].className = 'dots';
-    currentdot[1].className = 'dots first_active';
+    currentdot[1].className = 'dots first-active';
     currentdot[2].className = 'dots';
     slideIndex = 1;
 })
@@ -25,7 +25,7 @@ document.getElementById('dot3').addEventListener('click', () => {
     currentSlide[2].style.display = 'inline-block';
     currentdot[0].className = 'dots';
     currentdot[1].className = 'dots';
-    currentdot[2].className = 'dots first_active';
+    currentdot[2].className = 'dots first-active';
     slideIndex = 2;
 })
 
@@ -35,7 +35,7 @@ document.getElementById('dot3').addEventListener('click', () => {
 let slideIndex = 0;
 function slideShow(){
     let i;
-    let slides = document.getElementsByClassName('carousel_text');
+    let slides = document.getElementsByClassName('carousel-text');
     let dots = document.getElementsByClassName('dots');
     console.log(slides, dots);
 
@@ -44,10 +44,10 @@ function slideShow(){
     }
 
     for(i = 0; i<dots.length; i++){
-        dots[i].className.replace(' first_active', '');
+        dots[i].className.replace(' first-active', '');
     }
     slides[slideIndex].style.display = 'inline-block';
-    dots[slideIndex].className += ' first_active';
+    dots[slideIndex].className += ' first-active';
     if (slideIndex > 0) {
     dots[slideIndex-1].className = 'dots';
     }

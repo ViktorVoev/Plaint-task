@@ -5,7 +5,7 @@ main{
     padding-left: 10%;
     padding-right: 10%;
 }
-#firstWrapper{
+#first-wrapper{
     height: 30%;
     width: 100%;
 }
@@ -39,25 +39,25 @@ header{
 .menu a:hover{
     border-bottom: solid 2px white;
 }
-.frontText{
+.front-text{
     color: white;
     text-align: center;
     margin-top: 15%;
 }
-.frontText h1{
+.front-text h1{
     font-size: 300%;
     margin-bottom: 1%;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
-.frontText p{
+.front-text p{
     margin: 0;
     font-size: 200%;
     font-family: 'Courgette', cursive;
 }
-.upperBtn{
+.upper-btn{
     margin-top: 15%;
 }
-.upperBtn button{
+.upper-btn button{
     background-color: rgb(55, 70, 61);
     width: 50%;
     height: 100px;
@@ -66,10 +66,10 @@ header{
     border: 0;
     transform: skewX(-15deg)
 }
-.upperBtn button:hover{
+.upper-btn button:hover{
     background-color: rgb(61, 172, 98);
 }
-#secondWrapper{
+#second-wrapper{
     width: 100%;
     background-color: white;
 }
@@ -133,18 +133,18 @@ header{
 .rotate{
     transform: rotate(90deg);
 }
-#thirdWrapper{
-    padding-top: 3%;
-    padding-bottom: 3%;
+#third-wrapper{
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
-#thirdWrapper img{
+#third-wrapper img{
     width: 100%;
     height: 200px;
     opacity: 20%;
     position: absolute;
     z-index: -1;
 }
-.text_container{
+.text-container{
     text-align: center;
 }
 .fade {
@@ -155,7 +155,7 @@ header{
     from {opacity: .4}
     to {opacity: 1}
 }
-.carousel_text{
+.carousel-text{
     color: silver;
     text-align: center;
     margin-top: 0px;
@@ -168,18 +168,25 @@ header{
 .active{
     display: inline-block;
 }
-.carousel_text h3{
+.carousel-text h3{
     display: inline-block;
     padding-right: 2%;
     margin-top: 0px;
-    border-right: 1px solid white;
 }
-.dots_container{
+#third-wrapper .vl{
+height: 20px;
+margin-left: 55%;
+border-right: 1px solid gray;
+display: inline-block;
+position: relative;
+bottom: 43px;
+}
+.dots-container{
     text-align: center;
     display: inline-block;
-    margin-left: 55%;
+    margin-left: 56%;
     position: relative;
-    bottom: 40px;
+    bottom: 65px;
 }
 .dots{
     margin-left: 10px;
@@ -191,10 +198,10 @@ header{
     cursor: pointer;
     border: solid 2px white;
 }
-.dots.first_active{
+.dots.first-active{
     background-color: white;
 }
-#fourth_wrapper{
+#fourth-wrapper{
     width: 100%;
     background-color: white;
     padding-top: 2%;
@@ -249,60 +256,60 @@ header{
 .fa-solid.fa-message{
     color: red;
 }
-#fifth_wrapper{
+#fifth-wrapper{
     background-color: rgb(34, 34, 34);
+}
+#fifth-wrapper .vl{
+    border-right: 1px solid gray;
+    margin-left: 0px;
+    position: relative;
+    top: 14px;
+    margin-right: 10%;
+    padding-left: 10%;
 }
 footer{
     padding-top: 3%;
     padding-bottom: 3%;
     font-family: 'Signika Negative', sans-serif;
 }
-.first_part_footer{
+.first-part-footer{
     display: inline-block;
     color: gray;
     line-height: 1.5;
     opacity: 50%;
-    border-right: solid 1px gray;
-    padding-right: 8%;
 }
-.second_part_footer {
+.second-part-footer {
     display: inline-block;
     color: gray;
     opacity: 50%;
 }
-.second_part_footer:nth-child(3){
-    margin-left: 50px;
-    border-right: solid 1px gray;
-    padding-right: 8%;
+.second-part-footer:nth-child(3){
+    margin-right: 50px;
 }
-.second_part_footer:nth-child(2){
-    padding-left: 8%;
-}
-.second_part_footer ul{
+.second-part-footer ul{
     padding-left: 0px;
 }
-.second_part_footer li{
+.second-part-footer li{
     list-style-type: none;
     line-height: 1.9;
 }
-.second_part_footer li:hover{
+.second-part-footer li:hover{
     cursor: pointer;
     color: white;
     margin-left: 5px;  
     opacity: 100%;
 }
-.second_part_footer li::before{
+.second-part-footer li::before{
     content: '> ';
 }
-.third_part_footer{
-    margin-left: 8%;
+.third-part-footer{
     display: inline-block;
     color: gray;
     display: inline-block;
     opacity: 50%;
     line-height: 1.9;
 }
-.third_part_footer p{
+.third-part-footer p{
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -319,13 +326,13 @@ footer{
     .vl{
         margin-left: 5%;
     }
-    .third_part_footer{
+    .third-part-footer{
         margin-left: 6%;
     }
-    .second_part_footer:nth-child(2){
+    .second-part-footer:nth-child(2){
         padding-left: 6%;
     }
-    .first_part_footer{
+    .first-part-footer{
         padding-right: 6%;
     }
 }
@@ -343,25 +350,25 @@ footer{
     .profile{
         margin-bottom: 20px;
     }
-    .dots_container {
+    .dots-container {
         bottom: 0px;
         margin-left: 34%;
     }
-    .carousel_text h3{
+    .carousel-text h3{
         border: 0px;
     }
-    .first_part_footer{
+    .first-part-footer{
         border-right: 0px;
         border-bottom: solid 1px gray;
     }
-    .second_part_footer:nth-child(3){
+    .second-part-footer:nth-child(3){
         border-right: 0px;
         border-bottom: 1px solid grey;
     }
-    .third_part_footer{
+    .third-part-footer{
         margin-top: 20px;
     }
-    .second_part_footer:nth-child(2){
+    .second-part-footer:nth-child(2){
         padding-left: 0px;
         margin-left: 50px;
     }
