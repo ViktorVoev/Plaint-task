@@ -313,7 +313,8 @@ footer{
     margin-top: 0px;
     margin-bottom: 0px;
 }
-@media screen and (max-width: 1700px){
+
+@media only screen and (max-width: 1700px){
     header{
         padding-bottom: 22px;
     }
@@ -343,31 +344,75 @@ footer{
         margin-right: 30px;
     }
 }
-@media screen and (max-width: 1200px){
+@media only screen and (max-width: 1440px){
     header{
-        padding-bottom: 2%;
+        padding-bottom: 22px;
     }
     #profiles{
-        margin-left: 2%;
+        margin-left: 10%;
     }
     .profile{
-        margin-right: 23px;
+        margin-right: 60px;
+    }
+    .dots-container{
+        margin-left: 57%;
     }
     .servers{
-        margin-left: 3%;
+        margin-left: 8%;
     }
     .vl{
-        margin-left: 2%;
+        margin-left: 8%;
+    }
+    #third-wrapper .vl{
+        margin-left: 56%;
     }
     #fifth-wrapper .vl{
-        margin-right: 1%;
-        padding-left: 1%;
+        margin-right: 6%;
+        padding-left: 6%;
+    }
+    .second-part-footer:nth-child(3){
+        margin-right: 30px;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    main{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    header{
+        padding-bottom: 28px;
+    }
+    #profiles{
+        margin-left: 40px;
+    }
+    .profile{
+        margin-right: 21px;
+    }
+    .servers{
+        margin-left: 4%;
+    }
+    .vl{
+        margin-left: 40px;
+    }
+    .text-container{
+        margin-top: 5%;
+    }
+    .dots-container{
+        margin-left: 61%;
+    }
+    #third-wrapper .vl{
+        margin-left: 59%;
+    }
+    #fifth-wrapper .vl{
+        padding-left: 2%;
+        margin-right: 2%;
     }
     .second-part-footer:nth-child(3){
         margin-right: 10px;
     }
 }
-@media screen and (max-width: 400px){
+@media only screen and (max-width: 400px){
     .servers:first-child{
         margin-left: 11%;
     }
