@@ -313,6 +313,36 @@ footer{
     margin-top: 0px;
     margin-bottom: 0px;
 }
+@media screen and (max-width: 1700px){
+    header{
+        padding-bottom: 22px;
+    }
+    #profiles{
+        margin-left: 8%;
+    }
+    .profile{
+        margin-right: 80px;
+    }
+    .dots-container{
+        margin-left: 57%;
+    }
+    .servers{
+        margin-left: 11%;
+    }
+    .vl{
+        margin-left: 8%;
+    }
+    #third-wrapper .vl{
+        margin-left: 56%;
+    }
+    #fifth-wrapper .vl{
+        margin-right: 6%;
+        padding-left: 6%;
+    }
+    .second-part-footer:nth-child(3){
+        margin-right: 30px;
+    }
+}
 @media screen and (max-width: 1200px){
     header{
         padding-bottom: 2%;
