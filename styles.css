@@ -313,30 +313,31 @@ footer{
     margin-top: 0px;
     margin-bottom: 0px;
 }
-@media (max-width: 1558px){
+@media screen and (max-width: 1200px){
     header{
         padding-bottom: 2%;
     }
     #profiles{
-        margin-left: 6%;;
+        margin-left: 2%;
+    }
+    .profile{
+        margin-right: 23px;
     }
     .servers{
-        margin-left: 11%;
+        margin-left: 3%;
     }
     .vl{
-        margin-left: 5%;
+        margin-left: 2%;
     }
-    .third-part-footer{
-        margin-left: 6%;
+    #fifth-wrapper .vl{
+        margin-right: 1%;
+        padding-left: 1%;
     }
-    .second-part-footer:nth-child(2){
-        padding-left: 6%;
-    }
-    .first-part-footer{
-        padding-right: 6%;
+    .second-part-footer:nth-child(3){
+        margin-right: 10px;
     }
 }
-@media (max-width: 400px){
+@media screen and (max-width: 400px){
     .servers:first-child{
         margin-left: 11%;
     }
@@ -345,6 +346,9 @@ footer{
         padding-bottom: 5%;
     }
     .vl{
+        height: 0px;
+    }
+    #third-wrapper .vl{
         height: 0px;
     }
     .profile{
@@ -357,13 +361,14 @@ footer{
     .carousel-text h3{
         border: 0px;
     }
+    .servers{
+        margin-left: 31.5938px;
+    }
     .first-part-footer{
         border-right: 0px;
-        border-bottom: solid 1px gray;
     }
     .second-part-footer:nth-child(3){
         border-right: 0px;
-        border-bottom: 1px solid grey;
     }
     .third-part-footer{
         margin-top: 20px;
@@ -373,7 +378,7 @@ footer{
         margin-left: 50px;
     }
     #profiles{
-        margin-left: 28%;
+        margin-left: 13%;
     }
     .menu a{
         font-size: small;
@@ -387,5 +392,15 @@ footer{
     }
     .logo{
         width: 23%;
+    }
+    .first-part-footer p{
+        margin-bottom: 0px;
+    }
+    #fifth-wrapper .vl{
+        margin-right: 0px;
+        padding-left: 0px;
+        width: 100%;
+        height: 0px;
+        border-top: 1px solid gray;
     }
 }
