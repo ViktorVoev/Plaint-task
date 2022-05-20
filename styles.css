@@ -421,7 +421,153 @@ footer{
         margin-right: 10px;
     }
 }
+@media only screen and (max-width: 425px){
+    #fourth-wrapper main{
+        text-align: center;
+    }
+    .servers{
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .vl{
+        height: 0px;
+    }
+    #third-wrapper .vl{
+        height: 0px;
+    }
+    .profile{
+        margin-bottom: 20px;
+    }
+    .dots-container {
+        bottom: 0px;
+        margin-left: 38%;
+    }
+    .carousel-text h3{
+        border: 0px;
+    }
+    .first-part-footer{
+        border-right: 0px;
+    }
+    .second-part-footer:nth-child(3){
+        border-right: 0px;
+    }
+    .third-part-footer{
+        margin-top: 20px;
+    }
+    .second-part-footer:nth-child(2){
+        padding-left: 0px;
+        margin-left: 50px;
+    }
+    #profiles{
+        margin-left: 20%;
+        margin-right: 20%;
+
+    }
+    .menu a{
+        font-size: small;
+        padding: 0px;
+    }
+    .menu a:hover{
+        border-bottom: 0px;
+    }
+    .menu{
+        top:23px;
+        left: 0px;
+        margin-bottom: 0px;
+        position: relative;
+        right: 47px;
+    }
+    .logo{
+        width: 23%;
+    }
+    .first-part-footer p{
+        margin-bottom: 0px;
+    }
+    footer{
+        text-align: center;
+    }
+    #fifth-wrapper .vl{
+        margin-right: 0px;
+        padding-left: 0px;
+        width: 100%;
+        height: 0px;
+        border-top: 1px solid gray;
+        padding-bottom: 11px;
+        border-right: 0px;
+    }
+}
 @media only screen and (max-width: 375px){
+    #fourth-wrapper main{
+        text-align: center;
+    }
+    .servers{
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .vl{
+        height: 0px;
+    }
+    #third-wrapper .vl{
+        height: 0px;
+    }
+    .profile{
+        margin-bottom: 20px;
+    }
+    .dots-container {
+        bottom: 0px;
+        margin-left: 36%;
+    }
+    .carousel-text h3{
+        border: 0px;
+    }
+    .first-part-footer{
+        border-right: 0px;
+    }
+    .second-part-footer:nth-child(3){
+        border-right: 0px;
+    }
+    .third-part-footer{
+        margin-top: 20px;
+    }
+    .second-part-footer:nth-child(2){
+        padding-left: 0px;
+        margin-left: 50px;
+    }
+    #profiles{
+        margin-left: 13%;
+        margin-right: 13%;
+
+    }
+    .menu a{
+        font-size: small;
+        padding: 0px;
+    }
+    .menu a:hover{
+        border-bottom: 0px;
+    }
+    .menu{
+        top: 40px;
+        margin-top: 0px;
+        position: relative;
+        padding-left: 0px;
+    }
+    .logo{
+        width: 23%;
+    }
+    .first-part-footer p{
+        margin-bottom: 0px;
+    }
+    #fifth-wrapper .vl{
+        margin-right: 0px;
+        padding-left: 0px;
+        width: 100%;
+        height: 0px;
+        border-top: 1px solid gray;
+        padding-bottom: 9px;
+        border-right: 0px;
+    }
+}
+@media only screen and (max-width: 320px){
     #fourth-wrapper main{
         text-align: center;
     }
@@ -467,11 +613,14 @@ footer{
         font-size: small;
         padding: 0px;
     }
+    .menu a:hover{
+        border-bottom: 0px;
+    }
     .menu{
-        margin-top: 5px;
-        margin-bottom: 0px;
+        top: 8px;
+        margin-top: 0px;
         position: relative;
-        right: 47px;
+        padding-left: 0px;
     }
     .logo{
         width: 23%;
@@ -485,5 +634,7 @@ footer{
         width: 100%;
         height: 0px;
         border-top: 1px solid gray;
+        padding-bottom: 9px;
+        border-right: 0px;
     }
 }
